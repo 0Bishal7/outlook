@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.env.*
+
+# SQLite database
+*.sqlite3
+db.sqlite3
+
+# VSCode settings
+.vscode/
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Cache
+*.bak
+*.swp
+.cache/
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Compiled static files (optional)
+staticfiles/
+build/
+dist/
+node_modules/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# FastAPI auto-generated docs
+openapi.json
+
+# Temporary files
+*.tmp
+*.old
+
+# Auth/token debug files
+token.json
+access_token.txt
+refresh_token.txt
